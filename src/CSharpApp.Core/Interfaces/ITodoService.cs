@@ -1,7 +1,9 @@
+using CSharpApp.Core.Dtos.Todos;
+
 namespace CSharpApp.Core.Interfaces;
 
 public interface ITodoService
 {
-    Task<TodoRecord?> GetTodoById(int id);
-    Task<ReadOnlyCollection<TodoRecord>> GetAllTodos();
+    Task<TodoRecord?> GetTodoByIdAsync(int id);
+    Task<IEnumerable<TodoRecord>> GetAllTodosAsync();
 }
