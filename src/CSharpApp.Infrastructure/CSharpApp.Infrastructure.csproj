@@ -15,4 +15,8 @@
       <ProjectReference Include="..\CSharpApp.Application\CSharpApp.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Configuration\" />
+    </ItemGroup>
+
 </Project>
